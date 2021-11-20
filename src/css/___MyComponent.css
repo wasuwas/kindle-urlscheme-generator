@@ -1,0 +1,97 @@
+.div {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 2.34375px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.div-2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: -2.5px;
+  text-align: center;
+  line-height: normal;
+  height: auto;
+}
+.image {
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.image-sizer {
+  width: 100%;
+  padding-top: 42.699999999999996%;
+  pointer-events: none;
+  font-size: 0;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 40px;
+  text-align: center;
+  line-height: normal;
+  height: auto;
+  font-size: 33px;
+}
+@media (max-width: 991px) {
+  .title {
+    margin-top: 29.34375px;
+    text-align: center;
+  }
+}
+@media (max-width: 640px) {
+  .title {
+    font-size: 25px;
+  }
+}
+.subtitle {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 25.59375px;
+  text-align: center;
+  line-height: normal;
+  height: auto;
+  font-size: 17px;
+  color: rgba(86, 86, 86, 1);
+}
+@media (max-width: 991px) {
+  .subtitle {
+    text-align: center;
+  }
+}
+@media (max-width: 640px) {
+  .subtitle {
+    font-size: 15px;
+  }
+}
+.span {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 26px;
+  appearance: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 31px;
+  padding-right: 31px;
+  background-color: rgba(50, 50, 50, 1);
+  color: white;
+  border-radius: 4px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 991px) {
+  .span {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

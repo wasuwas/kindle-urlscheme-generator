@@ -1,0 +1,20 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: 0px;
+    text-align: center;
+    line-height: normal;
+    height: 5vh;
+}
+@media (max-width: 991px) {
+    .footer {
+      margin-top: 29.34375px;
+      text-align: center;
+    }
+  }
+  @media (max-width: 640px) {
+    .footer {
+      font-size: 25px;
+    }
+  }
